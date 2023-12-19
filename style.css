@@ -1,36 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,1000&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     user-select: none;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
 }
-body header{
+
+body header {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-body header #logo img{
+
+body header #logo img {
     width: 50px;
     margin: 10px;
 }
-body header nav{
+
+body header nav {
     display: flex;
 }
-body header nav a{
+
+body header nav a {
     display: block;
     text-decoration: none;
     color: rgb(34, 34, 34);
     padding: 20px;
     transition: .7s;
 }
-body header nav a:hover{
+
+body header nav a:hover {
     transform: translateY(-2px);
 }
-body header #btn button{
+
+body header #btn button {
     border: none;
     padding: 10px 15px;
     background-color: rgb(20, 18, 0);
@@ -38,55 +44,119 @@ body header #btn button{
     border-radius: 10px;
     transition: .5s;
 }
-body header #btn button:hover{
+
+body header #btn button:hover {
     cursor: pointer;
     background-color: rgb(241, 219, 16);
     color: rgb(0, 0, 0);
 }
-body main{
-    padding: 0px 50px;
+body main {
+    width: 100%;
+
 }
-body main #main-content{
+body main #main-content {
     width: 100%;
     height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: space-around ;
+    justify-content: space-around;
 }
-body main #main-content #text{
+
+body main #main-content #text {
     display: flex;
     flex-direction: column;
     width: 35vw;
+    margin-left: 5%;
 }
-body main #main-content #text #span span{
-    color: rgb(206, 111, 34);
+
+body main #main-content #text #span span {
+    color: rgb(238, 196, 11);
     font-weight: 600;
 }
-body main #main-content #text #title h1{
+
+body main #main-content #text #title h1 {
     color: rgb(26, 26, 26);
     font-size: 4rem;
     font-weight: 800;
     line-height: 60px;
 }
-body main #main-content #text #title span{
-    color: rgb(206, 111, 34);
+
+body main #main-content #text #title span {
+    color: rgb(238, 196, 11);
 }
-body main #main-content #picture{
+
+body main #main-content #picture {
     width: 50vw;
 }
-body main #main-content #picture img{
-    width: 40vw;
+
+body main #main-content #picture img {
+    width: 35vw;
 }
-body main #main-content #informations{
+
+body main #main-content #informations {
     display: flex;
     flex-direction: column;
     align-content: center;
     margin-right: 100px;
 }
-body main #main-content #informations span{
+
+body main #main-content #informations span {
     padding-bottom: 10px;
     font-size: 1rem;
     font-weight: 800;
     border-bottom: 1px solid rgba(0, 0, 0, 0.068);
     text-align: center;
+}
+body main #courses{
+    height: 70vh;
+    background-color: rgb(247, 196, 58);
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body main #courses .course-title{
+    margin: 30px;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: rgb(243, 159, 79);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+body main #courses #gallery img{
+    margin-top: 10%;
+    width: 70%;
+}
+body main #courses #gallery{
+    display: flex;
+}
+body main #courses #gallery .image{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: .7s;
+}
+body main #courses #gallery .image:hover{
+    transform: translateY(10px);
+    cursor: pointer;
+    opacity: .7;
+}
+body main #courses #gallery .image span{
+    margin: 5% 0% 20% 0%;
+    font-weight: 800;
+}
+body main #courses #btn button{
+    margin-top: 20%;
+    padding: 15px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
 }
