@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+body header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+body header #logo img{
+    width: 50px;
+    margin: 10px;
+}
+body header nav{
+    display: flex;
+}
+body header nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    padding: 20px;
+    transition: .7s;
+}
+body header nav a:hover{
+    transform: translateY(-2px);
+}
+body header #btn button{
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(20, 18, 0);
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+body header #btn button:hover{
+    cursor: pointer;
+    background-color: rgb(241, 219, 16);
+    color: rgb(0, 0, 0);
+}
+body main{
+    padding: 0px 50px;
+}
+body main #main-content{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+body main #main-content #text{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+body main #main-content #text #span span{
+    color: rgb(206, 111, 34);
+    font-weight: 600;
+}
+body main #main-content #text #title h1{
+    color: rgb(26, 26, 26);
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+body main #main-content #text #title span{
+    color: rgb(206, 111, 34);
+}
+body main #main-content #picture{
+    width: 50vw;
+}
+body main #main-content #picture img{
+    width: 40vw;
+}
+body main #main-content #informations{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 100px;
+}
+body main #main-content #informations span{
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 800;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.068);
+    text-align: center;
+}
