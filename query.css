@@ -9,7 +9,7 @@
         display: none;
     }
     body header #logo img{
-        width: 30px;
+        width: 60px;
     }
     body main #main-content{
         justify-content: space-evenly;
@@ -17,15 +17,19 @@
     }
     body main #main-content #text{
         width: 100vw;
+        display: flex;
+        align-items: center;
     }
     body main #main-content #text #span span{
         font-size: 3vw;
+        text-align: center;
     }
     body main #main-content #text #title h1{
         font-size: 9vw;
         max-width: 90vw;
         line-height: 8vw;
         overflow: hidden;
+        text-align: center;
     }
     body main #main-content #picture{
         width: 100vw;
@@ -44,7 +48,7 @@
         padding-bottom: 1vh;
         margin-bottom: 30px;
         font-size: 3vw;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.096);
     }
     body main #courses{
         border-top-left-radius: 10vw;
