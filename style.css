@@ -76,9 +76,9 @@ body main #main-content #text #span span {
 
 body main #main-content #text #title h1 {
     color: rgb(26, 26, 26);
-    font-size: 4rem;
+    font-size: 4vw;
     font-weight: 800;
-    line-height: 60px;
+    line-height: 3.2vw;
 }
 
 body main #main-content #text #title span {
@@ -90,7 +90,7 @@ body main #main-content #picture {
 }
 
 body main #main-content #picture img {
-    width: 35vw;
+    width: 25vw;
 }
 
 body main #main-content #informations {
@@ -120,7 +120,7 @@ body main #courses .course-title{
     margin: 30px;
     padding: 15px;
     font-size: 1.5rem;
-    color: rgb(243, 159, 79);
+    color: rgb(177, 95, 18);
     text-align: center;
     padding: 10px;
     background-color: rgb(255, 255, 255);

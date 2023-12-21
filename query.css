@@ -1,0 +1,60 @@
+@media screen and (max-width: 520px){
+    *{
+        overflow-x: hidden;
+    }
+    body header{
+        justify-content: center;
+    }
+    body header nav, body header #btn{
+        display: none;
+    }
+    body header #logo img{
+        width: 30px;
+    }
+    body main #main-content{
+        flex-direction: column;
+    }
+    body main #main-content #text{
+        width: 100vw;
+    }
+    body main #main-content #text #span span{
+        font-size: 3vw;
+    }
+    body main #main-content #text #title h1{
+        font-size: 9vw;
+        max-width: 90vw;
+        line-height: 8vw;
+        overflow: hidden;
+    }
+    body main #main-content #picture{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    body main #main-content #picture img{
+        width: 75vw;
+    }
+    body main #main-content #informations{
+        width: 100vw;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    body main #main-content #informations span{
+        padding-bottom: 4px;
+    }
+    body main #courses{
+        border-top-left-radius: 10vw;
+        border-top-right-radius: 10vw;
+        height: 100vh;
+    }
+    body main #courses .course-title{
+        font-size: 4vw;
+    }
+    body main #courses #gallery{
+        flex-direction: column;
+    }
+    body main #courses #gallery .image{
+        width: 30vw;
+        margin: 1vh;
+    }
+}
