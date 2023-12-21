@@ -8,6 +8,7 @@
     <meta name=”description” content=”A melhor plataforma ficticia de Cursos da área da tecnologia.“>.
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="imgs/graduation-hat (1).png" type="image/x-icon">
     <title>Liminha Cursos</title>
 </head>
@@ -30,7 +31,7 @@
     <main>
         <section id="main-content">
 
-            <div id="text">
+            <div id="text" data-aos="fade-down">
                 <div id="span">
                     <span>Top 6 em popularidade nas plataformas educacionais.</span>
                 </div>
@@ -40,10 +41,10 @@
                     </h1>
                 </div>
             </div>
-            <div id="picture">
+            <div id="picture" data-aos="fade-down">
                 <img width="100px" src="imgs/Studying-cuate.svg">
             </div>
-            <div id="informations">
+            <div id="informations" data-aos="fade-down">
                 <span>+100 Cursos</span>
                 <br>
                 <span>Certificado vitalicio</span>
@@ -53,7 +54,7 @@
 
         </section>
         <section id="courses">
-            <div class="course-title">
+            <div class="course-title" data-aos="fade-up">
                 <h1>Experimente Nosso Curso Front-End!</h1>
                 <h3>Você ira estudar:</h3>
             </div>
@@ -78,6 +79,13 @@
             </div>
         </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+        duration: 1000
+      });
+    </script>
 </body>
 
 </html>
