@@ -1,4 +1,4 @@
-@media screen and (max-width: 520px){
+@media screen and (max-width: 800px){
     *{
         overflow-x: hidden;
     }
@@ -12,6 +12,7 @@
         width: 30px;
     }
     body main #main-content{
+        justify-content: space-evenly;
         flex-direction: column;
     }
     body main #main-content #text{
@@ -40,7 +41,10 @@
         margin-right: 0px;
     }
     body main #main-content #informations span{
-        padding-bottom: 4px;
+        padding-bottom: 1vh;
+        margin-bottom: 30px;
+        font-size: 3vw;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.212);
     }
     body main #courses{
         border-top-left-radius: 10vw;
@@ -56,5 +60,6 @@
     body main #courses #gallery .image{
         width: 30vw;
         margin: 1vh;
+        overflow: hidden;
     }
 }

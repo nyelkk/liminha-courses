@@ -72,6 +72,7 @@ body main #main-content #text {
 body main #main-content #text #span span {
     color: rgb(238, 196, 11);
     font-weight: 600;
+    font-size: 1vw;
 }
 
 body main #main-content #text #title h1 {
@@ -144,6 +145,9 @@ body main #courses #gallery .image{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     transition: .7s;
 }
+body main #courses #gallery .image{
+    padding: 2%;
+}
 body main #courses #gallery .image:hover{
     transform: translateY(10px);
     cursor: pointer;
@@ -152,6 +156,7 @@ body main #courses #gallery .image:hover{
 body main #courses #gallery .image span{
     margin: 5% 0% 20% 0%;
     font-weight: 800;
+    font-size: 90%;
 }
 body main #courses #btn button{
     margin-top: 20%;
