@@ -9,6 +9,10 @@
 }
 
 body header {
+    top: 0;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 5px rgba(72, 72, 57, 0.144);
     width: 100%;
     display: flex;
     align-items: center;
@@ -56,7 +60,7 @@ body main {
 }
 body main #main-content {
     width: 100%;
-    height: 90vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -102,66 +106,90 @@ body main #main-content #informations {
 }
 
 body main #main-content #informations span {
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 1rem;
     font-weight: 800;
     border-bottom: 1px solid rgba(0, 0, 0, 0.068);
     text-align: center;
+    overflow-y: hidden;
 }
 body main #courses{
     height: 70vh;
-    background-color: rgb(247, 196, 58);
-    border-top-left-radius: 140px;
-    border-top-right-radius: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
 }
 body main #courses .course-title{
     margin: 30px;
     padding: 15px;
     font-size: 1.5rem;
-    color: rgb(177, 95, 18);
+    color: rgb(27, 27, 27);
     text-align: center;
     padding: 10px;
     background-color: rgb(255, 255, 255);
 }
-body main #courses #gallery img{
-    margin-top: 10%;
-    width: 70%;
+body main #courses .course-title p{
+    max-width: 80vh;
+    padding: 10px;
 }
-body main #courses #gallery{
-    display: flex;
+body main #courses .course-title h1{
+    color: rgb(41, 41, 41);
+    padding: 10px;
+    margin-bottom: 20px;
 }
-body main #courses #gallery .image{
-    background-color: white;
+body main #courses #btn{
+    width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    width: 10vw;
-    margin: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    transition: .7s;
-}
-body main #courses #gallery .image{
-    padding: 2%;
-}
-body main #courses #gallery .image:hover{
-    transform: translateY(10px);
-    cursor: pointer;
-    opacity: .7;
-}
-body main #courses #gallery .image span{
-    margin: 5% 0% 20% 0%;
-    font-weight: 800;
-    font-size: 90%;
+    overflow: hidden;
+    justify-content: center;
+    height: 10vh;
 }
 body main #courses #btn button{
-    margin-top: 20%;
+    margin: 20% 20%;
     padding: 15px;
-    width: 200px;
+    width: 10vw;
+    min-width: 200px;
     border-radius: 50px;
-    border: none;
+    border: 2px solid rgb(22, 13, 0);
+    background-color: rgb(255, 255, 207);
+    box-shadow: 5px 8px 0px -3px rgb(22, 13, 0);
+    cursor: pointer;
+    transition: 1s;
+}
+body main #courses #btn button:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+body main #teach{
+    padding: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60vh;
+}
+body main #teach img{
+    width: 15vw;
+    overflow-y: hidden;
+}
+body main #teach .content-teach{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+body main #teach .content-teach h1{
+    font-size: 2rem;
+    padding: 20px;
+}
+body main #teach .content-teach p{
+    margin-top: 2%;
+    max-width: 70vh;
+    padding: 20px;
+    font-size: 1rem;
 }
