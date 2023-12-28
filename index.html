@@ -8,6 +8,7 @@
     <meta name=”description” content="A maior plataforma ficticia de Cursos da área da tecnologia.">.
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
     <title>Lima Tec</title>
 </head>
@@ -28,7 +29,7 @@
         </div>
     </header>
     <main>
-        <section id="main-content">
+        <section id="main-content" data-aos="fade-up">
 
             <div id="text">
                 <div id="span">
@@ -52,7 +53,7 @@
             </div>
 
         </section>
-        <section id="courses">
+        <section id="courses" data-aos="fade-up">
             <div class="course-title">
                 <h1>Vem ser aluno da Lima Tec!</h1>
                 <p>Explore o fascinante universo da programação web e tecnologia na Lima Tec, a plataforma de cursos que vai além do convencional. Com uma abordagem didática envolvente, nossos cursos são projetados para todos os níveis de habilidade, proporcionando uma jornada prática desde os conceitos básicos até projetos avançados</p>
@@ -63,7 +64,7 @@
                 </button>
             </div>
         </section>
-        <section id="teach">
+        <section id="teach" data-aos="fade-up">
             <div class="image">
             <img src="imgs/certificado.png" alt="certificado">
             </div>
@@ -73,6 +74,15 @@
             </div>
         </section>
     </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+
+    AOS.init({
+    duration: 1500,
+});
+    </script>
 </body>
 
 </html>

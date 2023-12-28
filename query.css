@@ -20,8 +20,20 @@
     body main #main-content #text{
         width: 100vw;
     }
+    body main #main-content #text #span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     body main #main-content #text #span span{
         font-size: 3vw;
+    }
+    body main #main-content #text #title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     body main #main-content #text #title h1{
         font-size: 9vw;
@@ -41,12 +53,15 @@
         width: 100vw;
         justify-content: center;
         margin-right: 0px;
+        display: flex;
+        align-items: center;
     }
     body main #main-content #informations span{
         padding-bottom: 1vh;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         font-size: 3vw;
         border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+        width: 50%;
     }
     body main #courses{
         border-top-left-radius: 10vw;

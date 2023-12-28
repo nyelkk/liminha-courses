@@ -17,6 +17,7 @@ body header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 1;
 }
 
 body header #logo img {
@@ -64,6 +65,7 @@ body main #main-content {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 10vh;
 }
 
 body main #main-content #text {
